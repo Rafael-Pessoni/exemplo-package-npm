@@ -1,5 +1,5 @@
 {
-  "name": "@momentum-empreendimentos/exemplo-package-npm",
+  "name": "@rafael-pessoni/exemplo-package-npm",
   "version": "1.0.1",
   "description": "package de exemplo",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/momentum-empreendimentos/exemplo-package-npm.git"
+    "url": "git+https://github.com/rafael-pessoni/exemplo-package-npm.git"
   },
   "author": "rafael pessoni",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/momentum-empreendimentos/exemplo-package-npm/issues"
+    "url": "https://github.com/rafael-pessoni/exemplo-package-npm/issues"
   },
-  "homepage": "https://github.com/momentum-empreendimentos/exemplo-package-npm#readme",
+  "homepage": "https://github.com/rafael-pessoni/exemplo-package-npm#readme",
   "dependencies": {
     "jquery": "^3.6.3"
   }
