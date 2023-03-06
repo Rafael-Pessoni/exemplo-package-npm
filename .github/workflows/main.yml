@@ -1,0 +1,25 @@
+name: Build and deploy npm package
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 12
+      - run: npm install
+
+      - name: Running webpack build
+        run: npm run build
+
+      - name: Creating .npmrc file
+        run: echo -e "@rafael-pessoni:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }} \nalways-auth=true" > .npmrc
+
+      - name: Running npm publish
+        run: npm publish
