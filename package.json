@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rafael-Pessoni/exemplo-package-npm.git"
+    "url": "git+https://github.com/smn-official/exemplo-package-npm.git"
   },
   "author": "rafael pessoni",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rafael-Pessoni/exemplo-package-npm/issues"
+    "url": "https://github.com/smn-official/exemplo-package-npm/issues"
   },
-  "homepage": "https://github.com/Rafael-Pessoni/exemplo-package-npm#readme",
+  "homepage": "https://github.com/smn-official/exemplo-package-npm#readme",
   "dependencies": {
     "jquery": "^3.6.3"
   }
