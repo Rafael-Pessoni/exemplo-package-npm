@@ -1,5 +1,5 @@
 {
-  "name": "exemplo-package-npm",
+  "name": "@momentum-empreendimentos/exemplo-package-npm",
   "version": "1.0.0",
   "description": "package de exemplo",
   "main": "index.js",
