@@ -16,7 +16,7 @@ jobs:
       - run: npm install
 
       - name: Creating .npmrc file
-        run: echo -e "@smn-official:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }} \nalways-auth=true" > .npmrc
+        run: echo -e "@momentum-empreendimentos:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }} \nalways-auth=true" > .npmrc
 
       - name: Running npm publish
         run: npm publish
