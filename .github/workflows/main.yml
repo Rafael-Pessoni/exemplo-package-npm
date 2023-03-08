@@ -15,6 +15,9 @@ jobs:
           node-version: 12
       - run: npm install
 
+      - name: Running webpack build
+        run: npm run build
+
       - name: Creating .npmrc file
         run: echo -e "@rafael-pessoni:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }} \nalways-auth=true" > .npmrc
 

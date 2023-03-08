@@ -1,0 +1,18 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "target": "ES6",
+        "outDir": "./dist/",
+        "baseUrl": "./src/",
+        "declaration": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

@@ -1,22 +1,36 @@
 {
-  "name": "@rafael-pessoni/exemplo-package-npm",
-  "version": "1.0.1",
-  "description": "package de exemplo",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rafael-pessoni/exemplo-package-npm.git"
-  },
-  "author": "rafael pessoni",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rafael-pessoni/exemplo-package-npm/issues"
-  },
-  "homepage": "https://github.com/rafael-pessoni/exemplo-package-npm#readme",
-  "dependencies": {
-    "jquery": "^3.6.3"
-  }
+    "name": "@rafael-pessoni/exemplo-package-npm",
+    "version": "1.0.1",
+    "description": "package de exemplo",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "watch": "webpack watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rafael-pessoni/exemplo-package-npm.git"
+    },
+    "author": "rafael pessoni",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rafael-pessoni/exemplo-package-npm/issues"
+    },
+    "homepage": "https://github.com/rafael-pessoni/exemplo-package-npm#readme",
+    "dependencies": {
+        "jquery": "^3.6.3"
+    },
+    "devDependencies": {
+        "@types/jquery": "^3.5.14",
+        "css-loader": "^6.7.1",
+        "style-loader": "^3.3.1",
+        "less": "^4.1.3",
+        "less-loader": "^11.0.0",
+        "ts-loader": "^9.3.1",
+        "typescript": "^4.7.4",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0"
+    }
 }
